@@ -1,0 +1,2 @@
+# Use Google Analytics with TVJS
+This is a demonstration how analytics.js can be used with Apple TV TVML apps. analytics.js does not work out of the box because it expects several objects a usual HTML document provides but not that are not available with TVML. We create dummy objects and set up the ga object to use XMLHttpRequests for transport.
