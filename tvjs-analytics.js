@@ -86,12 +86,12 @@ ga('set', 'transport', 'xhr');
 
 // Load Analytics scripts. Scripts of plugins must be loaded manually before using the plugin.
 evaluateScripts([
-  'https://www.google-analytics.com/analytics.js',
-  'https://www.google-analytics.com/plugins/ua/ecommerce.js'
+	'https://www.google-analytics.com/analytics.js',
+	'https://www.google-analytics.com/plugins/ua/ecommerce.js'
 ], function(success) {});
 
 // Now it's possible to track as usual
 ga('send', 'pageview', {
-  'page': '/my-page',
-  'title': 'My page title'
+	'page': '/my-page',
+	'title': 'My page title'
 });
